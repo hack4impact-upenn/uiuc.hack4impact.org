@@ -1,0 +1,17 @@
+version: 2
+jobs:
+  upload:
+    docker:
+      - image: node:10.8.0
+    branches:
+      only: 
+        - master
+    steps:
+      - checkout
+      - run:
+          command: npm install -g surge
+workflows:
+  version: 2
+  upload_job:
+    jobs:
+      - upload
