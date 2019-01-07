@@ -19,5 +19,8 @@ workflows:
   version: 2
   upload_job:
     jobs:
-      - upload
+      - upload:
+        filters:
+            branches:
+              only: master
         
