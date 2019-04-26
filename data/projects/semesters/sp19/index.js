@@ -11,13 +11,7 @@ export default {
       ...Sp19SafeMapsData
     },
     {
-      ...KivaData
-    },
-    {
       ...GlobalGivingData
     },
-    {
-      ...ProductInfraData
-    }
   ]
 };
