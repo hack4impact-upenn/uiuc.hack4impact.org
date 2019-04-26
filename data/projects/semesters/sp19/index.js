@@ -1,5 +1,5 @@
 import Sp19SafeMapsData from "./safemaps";
-import KivaData from "./kiva";
+import KivaData from "./kiva-2";
 import GlobalGivingData from "./gg";
 import ProductInfraData from "./pi";
 

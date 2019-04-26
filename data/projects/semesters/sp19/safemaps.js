@@ -2,9 +2,9 @@
 const name = "Safe Maps";
 const id = "safemaps"; // second C2TC Project
 const detail = "How might we make students feel safer on campus?";
-const coverImagePath = "/static/images/projects/c2tc-2/c2tc-2-cover.jpg";
+const coverImagePath = "/static/images/projects/safemaps/safemaps-cover.png";
 const clientDetail =
-  "Cut to the Case (CTTC) is a nonprofit organization started by two UIUC Engineering students who met through a nonprofit startup aimed at increasing interest in STEM among young girls called MakerGirl. After getting accepted into iVenture Accelerator and doing summer research, Premika and Kendall decided to tackle the issue of sexual assault. CTTC’s goal is to increase reporting and eventually increase prosecution through a rape kit tracking system. Currently Premika and Kendall are working on customer research";
+  "Navigate safely through campus and learn about the health and safety resources near you with Illini SafeMaps. Illini SafeMaps is your real-time safety companion. With Illini SafeMaps, you can navigate around the U of I campus safely by viewing the locations of past crimes, police stations, emergency phones, running buses, open businesses, and streetlights. This app also enables you to be notified and access safety and health resources near you including SafeWalks and SafeRides so you can stay informed and make safer decisions.";
 const clientLink =
   "http=//iventure.illinois.edu/index.php/portfolio/wanderweb/";
 const clientFeatures = [
@@ -22,11 +22,11 @@ const clientFeatures = [
   }
 ];
 const problem =
-  "Cut to the Case is a UIUC based non-profit started by two UIUC Engineering students whose initial mission was to help victims of sexual assault. Now, Cut to the Case has expanded their focus into tackling public safety with the hopes of improving the safety of all students on campus";
+  "Settling onto a sprawling campus of over 354 University buildings, 12,454 international students, 33,673 undergraduates can be an overwhelming experience for UIUC students. Currently, the University offers introductory programs including Freshmen and International Student Orientation programs that gives students a preview of available safety & wellness resources. However, after those introductory programs conclude, there is little guidance or follow-up on where and how to navigate these safety resources. This sense of being overwhelmed is particularly heightened when students are in transit — traveling around at night, walking in areas they have not been to before, etc";
 const problemImagePath = "/static/images/projects/c2tc-2/c2tc-2-cover.jpg";
 const solution =
-  "We want to educate students about what’s around them. If we give them the information they need about what’s around campus, they will be better prepared to make decisions on how they should get home. From our research, we discovered that many students value knowing about where emergency phones, open businesses, lighting, past crimes, and other people are. For the app, we focused on giving students information about open businesses, emergency phones, police stations, street lights, bus stops, and past crimes are. ";
-const solutionImagePath = "/static/images/projects/question.jpg";
+  "This mobile application aims to provide quick & easy access information to students as they navigate around the campus through location-triggered tip notifications, empowering students to better understand their surroundings and ultimately make more informed decisions throughout the school year.";
+const solutionImagePath = "/static/images/projects/safemaps/safemaps-cover.png";
 const features = [
   {
     title: "Location and Map Services",
