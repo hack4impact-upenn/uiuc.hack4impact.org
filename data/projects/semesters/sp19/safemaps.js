@@ -1,6 +1,6 @@
-// Data for the Fa18 C2TC Project - 2nd C2TC project
-const name = "Cut to the Case";
-const id = "c2tc-2"; // second C2TC Project
+// Data for the Fa18 C2TC Project - 3rd C2TC project (Safe Maps)
+const name = "Safe Maps";
+const id = "safemaps"; // second C2TC Project
 const detail = "How might we make students feel safer on campus?";
 const coverImagePath = "/static/images/projects/c2tc-2/c2tc-2-cover.jpg";
 const clientDetail =
@@ -55,12 +55,12 @@ const features = [
 ];
 
 const featureImgSize = "4";
-const techStack = ["reactnative", "flask", "mongodb"];
+const techStack = ["reactnative", "flask", "mongodb", "redux"];
 const quote =
   "We talked to a couple of people about developing about Cut to the Case, but a lot of them didn’t have the same passion that Hack4Impact had for the project. Hack4Impact had enthusiasm for what we were doing.";
 const quoteSource = "Premika Pandian";
 const quoteSourceTitle = "Cut to the Case Co-Founder and CTO";
-const githubLink = "https://github.com/hack4impact-uiuc/c2tc-fall-2018";
+const githubLink = "https://github.com/hack4impact-uiuc/safe-maps";
 const team = {
   type: "pics",
   detail: [
@@ -73,7 +73,7 @@ const team = {
       role: "Tech Lead"
     },
     {
-      name: "Josh Burke",
+      name: "Albert Cao",
       role: "Software Developer"
     },
     {
@@ -81,11 +81,15 @@ const team = {
       role: "Software Developer"
     },
     {
-      name: "Daniel Choi",
+      name: "Michael Leon",
       role: "Software Developer"
     },
     {
-      name: "Anooj Lal",
+      name: "Alice Fang",
+      role: "Software Developer"
+    },
+    {
+      name: "Rebecca Xun",
       role: "Software Developer"
     },
     {
