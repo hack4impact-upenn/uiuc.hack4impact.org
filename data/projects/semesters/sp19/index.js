@@ -1,6 +1,6 @@
 import Sp19SafeMapsData from "./safemaps";
 import KivaData from "./kiva-2";
-import GlobalGivingData from "./gg";
+import GlobalGivingData from "./gg-2";
 import ProductInfraData from "./pi";
 
 // Fa18 Project Data

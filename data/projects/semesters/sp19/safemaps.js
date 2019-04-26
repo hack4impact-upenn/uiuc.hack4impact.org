@@ -1,6 +1,6 @@
-// Data for the Fa18 C2TC Project - 3rd C2TC project (Safe Maps)
+// Data for the SP19 C2TC Project - 3rd C2TC project (Safe Maps)
 const name = "Safe Maps";
-const id = "safemaps"; // second C2TC Project
+const id = "safemaps"; // 3rd C2TC Project
 const detail = "How might we make students feel safer on campus?";
 const coverImagePath = "/static/images/projects/safemaps/safemaps-cover.png";
 const clientDetail =
@@ -29,28 +29,40 @@ const solution =
 const solutionImagePath = "/static/images/projects/safemaps/safemaps-cover.png";
 const features = [
   {
-    title: "Location and Map Services",
+    title: "Safety Companion For Illinois Students",
     detail:
-      "Users can browse the map, know their current location, and zoom back to their current location using their phone’s native map application.",
-    imgPath: "/static/images/projects/c2tc-2/c2tc-2-map.png"
+      "Illini SafeMaps is the one stop for all things safety for U of I students. From finding the location of previous crimes to posting tips for other students to learn from, SafeMaps is dedicated to helping students stay safer on campus.",
+    imgPath: "/static/images/projects/safemaps/safety companion.png"
   },
   {
-    title: "Filter Data",
+    title: "Stay Informed Of What's Happening",
     detail:
-      "The C2TC app has location information on U of I’s bus stops, crimes in the past month, open businesses, emergency phones, police stations, street lights and keeps these updated constantly. ",
-    imgPath: "/static/images/projects/c2tc-2/c2tc-2-filters.png"
+      "Stay up to date with location based tips on campus. Students can read and post tips relating to crimes, health, transportation, financial safety and more!",
+    imgPath: "/static/images/projects/safemaps/stay informed.png"
   },
   {
-    title: "Applying Filters",
+    title: "See What's Around You",
     detail:
-      "Users can then apply filters to see how dangerous the surrounding area and what the best path to take home at night.",
-    imgPath: "/static/images/projects/c2tc-2/c2tc-2-apply-filters.png"
+      "Our map interface allows students to get an idea about what is around them. SafeMaps has information about crimes, emergency phones, police stations, bus stops, streetlights and open businesses. Students can use this information to plan their routes around campus!",
+    imgPath: "/static/images/projects/safemaps/around you.png"
   },
   {
-    title: "Safe Rides and Safe Walks Integration",
+    title: "Access Verified Info From Trustworthy Sources",
     detail:
-      "Users can quickly call safe rides and safe walks within the app if they are not comfortable walking home alone.",
-    imgPath: "/static/images/projects/c2tc-2/c2tc-2-safe-rides.png"
+      "SafeMap’s database is maintained and updated regularly to ensure the most accurate data for all of our users. Click on a point of interest to learn more about the event and when/what occurred.",
+    imgPath: "/static/images/projects/safemaps/verified info.png"
+  },
+  {
+    title: "Share Tips To Make Community Safer",
+    detail:
+      "Learn and contribute to our large database of safety tips. We try our best to validate and ensure the quality of all the submitted tips so our users have the right info in their hands.",
+    imgPath: "/static/images/projects/safemaps/share tips.png"
+  },
+  {
+    title: "Join The SafeMaps Network And Build Your Profile",
+    detail:
+      "Build a profile, submit tips, and join our community! We are happy to have you aboard!",
+    imgPath: "/static/images/projects/safemaps/join.png"
   }
 ];
 

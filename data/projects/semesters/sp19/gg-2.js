@@ -29,22 +29,34 @@ const solution =
   const solutionImagePath = "/static/images/projects/gg/gg-crawl.png";
   const features = [
     {
-      title: "Data collection through scraping",
+      title: "Revised Categorization Schema",
       detail:
-        "Choose ten websites with directories of nonprofits and scrape each individual one and add them to the database. Data includes the organization’s name, country of registration, registration numbers, website url, and email.",
-      imgPath: "/static/images/projects/gg/gg-scraper.png"
+        "We revised the schema for categorizing nonprofit organizations. This categorization considers the patterns we found through experimentation and investigation; the data suggest that both whom the nonprofit serves and what they do are separate and informative facets of an organization, so one simple label does not suffice.",
+      imgPath: "/static/images/projects/gg-2/schema.png"
     },
     {
-      title: "Command Line Tool",
+      title: "Stochastic Gradient Descent",
       detail:
-        "Allows user to see all the available scripts, run them, and submit the entries to the global giving database using the organization parser",
-      imgPath: "/static/images/projects/gg/gg-run.png"
+        "We used scikit-learn's Stochastic Gradient Descent classifier, wrapped in a OneVsRest classifier in order to do multi-label, multiclass classification on an NGO based off of the tf-idf scored text from their website.",
+      imgPath: "/static/images/projects/gg-2/gradient.png"
     },
     {
-      title: "Web Crawler",
+      title: "Document Vectors",
       detail:
-        "Crawls the web and google searches and ranks potential NGO directories",
-      imgPath: "/static/images/projects/gg/gg-crawl.png"
+        "Text from each non-profit organization is a document of words. Using Doc2Vec, we created a document vector model for each one. Document vectors can be clustered using KMeans to find similarities between projects. We used Matplotlib to graph each document with different colors representing different clusters.",
+      imgPath: "/static/images/projects/gg-2/document.png"
+    },
+    {
+      title: "Word Vectors",
+      detail:
+        "Text from non-profit organizations can be represented as word vectors, numerical representations which can be compared and graphed. Word vectors can be summed to represent an entire organization document. We use these to cluster data to find similarities between organizations.",
+      imgPath: "/static/images/projects/gg-2/word.png"
+    },
+    {
+      title: "Unguided LDA",
+      detail:
+        "We created an Unguided LDA class that creates a model representing the “topics” present in a dataset of non-profit projects. A user can then categorize new projects by seeing which topics in the model a new project is most similar to. In general, the core purpose of this class is to cluster together new topics rather than classifying projects based on pre-determined topics, thus providing a new perspective on the variety of data.",
+      imgPath: "/static/images/projects/gg-2/unguided.png"
     }
   ];
   const featureImgSize = "7";
