@@ -31,7 +31,7 @@ const solution =
     {
       title: "Revised Categorization Schema",
       detail:
-        "We revised the schema for categorizing nonprofit organizations. This categorization considers the patterns we found through experimentation and investigation; the data suggest that both whom the nonprofit serves and what they do are separate and informative facets of an organization, so one simple label does not suffice.",
+        "This categorization considers the patterns we found through experimentation and investigation; the data suggest that both whom the nonprofit serves and what they do are separate and informative facets of an organization, so one simple label does not suffice.",
       imgPath: "/static/images/projects/gg-2/schema.png"
     },
     {
@@ -43,20 +43,26 @@ const solution =
     {
       title: "Document Vectors",
       detail:
-        "Text from each non-profit organization is a document of words. Using Doc2Vec, we created a document vector model for each one. Document vectors can be clustered using KMeans to find similarities between projects. We used Matplotlib to graph each document with different colors representing different clusters.",
+        "Using Doc2Vec, we created a document vector model for each one. Document vectors can be clustered using KMeans to find similarities between projects. Using Matplotlib, we graphed each document with different colors representing different clusters.",
       imgPath: "/static/images/projects/gg-2/document.png"
     },
     {
       title: "Word Vectors",
       detail:
-        "Text from non-profit organizations can be represented as word vectors, numerical representations which can be compared and graphed. Word vectors can be summed to represent an entire organization document. We use these to cluster data to find similarities between organizations.",
+        "Text from non-profit organizations can be represented as word vectors. Word vectors can be summed to represent an entire organization document. We use these to cluster data to find similarities between organizations.",
       imgPath: "/static/images/projects/gg-2/word.png"
     },
     {
       title: "Unguided LDA",
       detail:
-        "We created an Unguided LDA class that creates a model representing the “topics” present in a dataset of non-profit projects. A user can then categorize new projects by seeing which topics in the model a new project is most similar to. In general, the core purpose of this class is to cluster together new topics rather than classifying projects based on pre-determined topics, thus providing a new perspective on the variety of data.",
+        "Unguided LDA class creates a model representing the “topics” present in a dataset of non-profit projects. The core purpose of this class is to cluster together new topics rather than classifying projects based on pre-determined topics, thus providing a new perspective on the variety of data.",
       imgPath: "/static/images/projects/gg-2/unguided.png"
+    },
+    {
+      title: "Bag Of Words",
+      detail:
+        "Bag of words is a statistical method of classifying documents based off the frequency and relevance of words in a document's text. Using this algorithm, we can predict the themes of an organization to effectively understand their mission based off their websites' text!",
+      imgPath: "/static/images/projects/gg-2/bow.png"
     }
   ];
   const featureImgSize = "7";
