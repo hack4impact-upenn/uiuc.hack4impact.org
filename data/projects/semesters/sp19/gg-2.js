@@ -66,7 +66,7 @@ const solution =
     }
   ];
   const featureImgSize = "7";
-  const techStack = ["sklearn", "gensim", "nltk", "beautifulsoup", "dynamodb", "aws", "spacy"];
+  const techStack = ["sklearn", "gensim", "nltk", "beautifulsoup", "dynamodb", "spacy"];
   const quote = null;
   const quoteSource = null;
   const quoteSourceTitle = null;

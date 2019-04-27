@@ -93,6 +93,11 @@ const techStackMasterList = {
     link: "https://spacy.io",
     title: "Spacy",
     imgPath: "/static/images/techStack/spacy.jpg"
+  },
+  box: {
+    link: "https://box.com",
+    title: "Box",
+    imgPath: "/static/images/techStack/box.jpg"
   }
 };
 
