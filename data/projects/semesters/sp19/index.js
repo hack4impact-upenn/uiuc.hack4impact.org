@@ -16,8 +16,5 @@ export default {
     {
       ...GlobalGivingData
     },
-    {
-      ...ProductInfraData
-    }
   ]
 };
