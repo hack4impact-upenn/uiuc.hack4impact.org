@@ -98,6 +98,21 @@ const techStackMasterList = {
     link: "https://box.com",
     title: "Box",
     imgPath: "/static/images/techStack/box.jpg"
+  },
+  yargs: {
+    link: "http://yargs.js.org",
+    title: "Yargs",
+    imgPath: "/static/images/techStack/yargs.png"
+  },
+  next: {
+    link: "https://nextjs.org",
+    title: "NextJS",
+    imgPath: "/static/images/techStack/next.png"
+  },
+  express: {
+    link: "https://expressjs.com",
+    title: "ExpressJS",
+    imgPath: "/static/images/techStack/express.png"
   }
 };
 

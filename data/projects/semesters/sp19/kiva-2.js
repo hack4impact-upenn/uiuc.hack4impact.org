@@ -2,7 +2,7 @@
 const name = "Kiva";
 const id = "kiva-2"; // second kiva Project
 const detail = "How might we create a single portal where Field Partners and Portfolio Managers can see which documents need to be uploaded and track their progress?";
-const coverImagePath = "/static/images/projects/kiva-2/thumbnail.png";
+const coverImagePath = "/static/images/projects/kiva-2/thumbnail copy.png";
 const clientDetail = "Kiva is a nonprofit organization founded in 2006 that is funded via individual and corporate donations. Their mission is to alleviate poverty and connect people by funding loans. So far, Kiva has reached borrowers in 82 countries, and 1.7 million Kiva lenders have lent over a billion dollars to family businesses. Their goal is to reach 2 million people soon and lend the next 1 billion dollars in a shorter amount of time.";
   const clientLink = "https://www.kiva.org/"; // link to website
   const clientFeatures = [
