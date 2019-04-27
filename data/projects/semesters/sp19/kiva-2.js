@@ -1,10 +1,10 @@
-// Data for the Fa18 C2TC Project - 2nd C2TC project
-const name = "Cut to the Case";
-const id = "c2tc-2"; // second C2TC Project
+// Data for the sp19 kiva Project - 2nd kiva project
+const name = "Kiva";
+const id = "kiva-2"; // second kiva Project
 const detail = "How might we make students feel safer on campus?";
-const coverImagePath = "/static/images/projects/c2tc-2/c2tc-2-cover.jpg";
+const coverImagePath = "/static/images/projects/kiva-1/kiva-1-cover.jpg";
 const clientDetail =
-  "Cut to the Case (CTTC) is a nonprofit organization started by two UIUC Engineering students who met through a nonprofit startup aimed at increasing interest in STEM among young girls called MakerGirl. After getting accepted into iVenture Accelerator and doing summer research, Premika and Kendall decided to tackle the issue of sexual assault. CTTC’s goal is to increase reporting and eventually increase prosecution through a rape kit tracking system. Currently Premika and Kendall are working on customer research";
+  "Kiva is a non-profit organization which crowdfunds loans for lower-income and underserved people all across the world. Kiva Field Partners act as intermediaries between Kiva and borrowers and are largely responsible for managing the details of loans and repayment. Currently, Field Partner financial documents are submitted through Kiva through email and must be manually checked to make sure all documents are provided and are properly filled out/formatted/etc. – our project will consolidate this process into a single portal where Field Partners and Portfolio Managers can see which documents need to be uploaded and track their progress. We’ll integrate this with some file repository service (likely Box or GitHub) and aim to create a streamlined, secure portal that will eliminate the hassle of tracking multiple financial documents across a wide network of Field Partners.";
 const clientLink =
   "http=//iventure.illinois.edu/index.php/portfolio/wanderweb/";
 const clientFeatures = [
