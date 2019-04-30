@@ -3,6 +3,7 @@ const name = "Global Giving";
 const id = "gg-2"; // second GG Project
 const detail = "How might we expand Global Giving’s impact and reach on domestic and international nonprofits?";
 const coverImagePath = "/static/images/projects/gg-2/gg2-thumbnail.png";
+
 const clientDetail =
 "Global Giving seeks to identify nonprofits around the world, creating a central directory of nonprofits. They also aim to connect each nonprofit with the necessary resources, such as connecting them with donors or setting up crowdfunding options to help the nonprofit succeed.";
 const clientLink =
