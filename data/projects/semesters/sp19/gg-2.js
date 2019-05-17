@@ -32,39 +32,27 @@ const solution =
     {
       title: "Revised Categorization Schema",
       detail:
-        "This categorization considers the patterns we found through experimentation and investigation; the data suggest that both whom the nonprofit serves and what they do are separate and informative facets of an organization, so one simple label does not suffice.",
+        "This categorization considers the patterns we found through experimentation and investigation, suggesting whom the nonprofit serves and what they do.",
       imgPath: "/static/images/projects/gg-2/gg2-schema.png"
     },
     {
       title: "Stochastic Gradient Descent",
       detail:
-        "We used scikit-learn's Stochastic Gradient Descent classifier, wrapped in a OneVsRest classifier in order to do multi-label, multiclass classification on an NGO based off of the tf-idf scored text from their website.",
+        "We used scikit-learn's Stochastic Gradient Descent classifier, a OneVsRest classifier, and a multiclass classification on an NGO.",
       imgPath: "/static/images/projects/gg-2/gg2-gradient.png"
     },
     {
       title: "Document Vectors",
       detail:
-        "Using Doc2Vec, we created a document vector model for each one. Document vectors can be clustered using KMeans to find similarities between projects. Using Matplotlib, we graphed each document with different colors representing different clusters.",
+        "Using Doc2Vec, we created a document vector model for each one using Kmeans to find similarities between projects.",
       imgPath: "/static/images/projects/gg-2/gg2-document.png"
-    },
-    {
-      title: "Word Vectors",
-      detail:
-        "Text from non-profit organizations can be represented as word vectors. Word vectors can be summed to represent an entire organization document. We use these to cluster data to find similarities between organizations.",
-      imgPath: "/static/images/projects/gg-2/gg2-word.png"
     },
     {
       title: "Unguided LDA",
       detail:
-        "Unguided LDA class creates a model representing the “topics” present in a dataset of non-profit projects. The core purpose of this class is to cluster together new topics rather than classifying projects based on pre-determined topics, thus providing a new perspective on the variety of data.",
+        "Unguided LDA class creates a model representing the “topics” present in a dataset of non-profit projects.",
       imgPath: "/static/images/projects/gg-2/gg2-unguided.png"
     },
-    {
-      title: "Bag Of Words",
-      detail:
-        "Bag of words is a statistical method of classifying documents based off the frequency and relevance of words in a document's text. Using this algorithm, we can predict the themes of an organization to effectively understand their mission based off their websites' text!",
-      imgPath: "/static/images/projects/gg-2/gg2-bow.png"
-    }
   ];
   const featureImgSize = "7";
   const techStack = ["sklearn", "gensim", "nltk", "beautifulsoup", "dynamodb", "spacy"];
