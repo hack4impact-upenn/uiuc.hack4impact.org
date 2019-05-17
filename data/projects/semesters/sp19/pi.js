@@ -54,7 +54,7 @@ const features = [
   }
 ];
 
-const featureImgSize = "4";
+const featureImgSize = "5";
 const techStack = ["yargs", "express", "mongodb", "next", "react", "flask"];
 const quote = null;
 const quoteSource = null;

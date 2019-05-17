@@ -27,7 +27,7 @@ const clientFeatures = [
     "Currently, GlobalGiving connects with organizations based in the US along with some nonprofits in other countries. However, the process of finding and applying to GlobalGiving remains significantly easier within the United States. In certain countries, factors including lack of internet connectivity and lack of access to documents required by GlobalGiving has led to slower onboarding and discovery of the organization.";
   const problemImagePath = "/static/images/projects/gg/gg-cover.jpg";
 const solution =
-  "We are working to uncover ways of characterizing the work that nonprofit organizations do all over the world. We've built tools which analyze the websites and missions statements of nonprofits, group them together according to what they do, and give suggestions as to what each organization’s work may be. Ultimately, we hopes to give GlobalGiving as much knowledge and foresight as possible when they reach out to new nonprofits to  join their global network.";
+  "We are uncovering ways of characterizing the work that nonprofit organizations do all over the world. We've built tools which analyze the websites and missions statements of nonprofits, group them together according to what they do, and give suggestions as to what each organization’s work may be. Ultimately, we hope to give GlobalGiving as much knowledge and foresight as possible when they reach out to new nonprofits to join their global network.";
   const solutionImagePath = "/static/images/projects/gg/gg-crawl.png";
   const features = [
     {

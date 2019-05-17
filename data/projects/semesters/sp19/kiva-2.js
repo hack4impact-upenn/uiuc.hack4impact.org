@@ -29,7 +29,7 @@ const problem =
 "Kiva is a non-profit organization which crowdfunds loans for lower-income and underserved people all across the world. Kiva Field Partners act as intermediaries between Kiva and borrowers and are largely responsible for managing the details of loans and repayment. Currently, Field Partner financial documents are submitted through Kiva through email and must be manually checked to make sure all documents are provided and are properly filled out/formatted/etc.";
 const problemImagePath = "/static/images/projects/kiva-2/kiva2-docs.jpg";
 const solution =
-  "Our project will consolidate this process into a single portal where Field Partners and Portfolio Managers can see which documents need to be uploaded and track their progress. We’ll integrate this with some file repository service (likely Box or GitHub) and aim to create a streamlined, secure portal that will eliminate the hassle of tracking multiple financial documents across a wide network of Field Partners.";
+  "Our project consolidates this process into a single portal where Field Partners and Portfolio Managers can see which documents need to be uploaded and track their progress. We integrate this with some file repository service (likely Box or GitHub) and aim to create a streamlined, secure portal that will eliminate the hassle of tracking multiple financial documents across a wide network of Field Partners.";
 const solutionImagePath = "/static/images/projects/kiva-2/kiva2-fp.png";
 
 const features = [
