@@ -35,30 +35,30 @@ const features = [
   {
     title: "Login page",
     detail:
-      "Kiva users (portfolio managers) and partners (field partners) can log in to our application and be verified using the security tool developed by our chapter's Product Infrastructure team.",
+      "Kiva users and partners can log in to our application and be verified using the security tool developed by our chapter's Product Infrastructure team.",
     imgPath: "/static/images/projects/kiva-2/kiva2-login.png"
   },
   {
     title: "Field partner dashboard",
     detail:
-      "Required documents are organized by their status, and portfolio managers can review their field partners' documents on this same page, rejecting or approving them to indicate if the documents were filled out properly.",
+      "Required documents are organized by their status, and portfolio managers can reject or approve them to indicate based on their completions.",
     imgPath: "/static/images/projects/kiva-2/kiva2-fp.png"
   },
   {
     title: "Portfolio manager dashboard",
     detail:
-      "Where portfolio managers can see the statuses of all their field partners, organized by whether each partner is currently in the reviewing process, has just been created, or has finished the review process. For \"In Process\" field partners, portfolio managers can navigate to their corresponding dashboards, while for other field partners, portfolio managers can assign new required documents to begin the review process again.",
+      "Where portfolio managers can see the statuses of all their field partners, organized by whether each partner is currently in the reviewing process, has just been created, or has finished the review process.",
     imgPath: "/static/images/projects/kiva-2/kiva2-pm.png"
   },
   {
     title: "Document selection page",
     detail:
-      "To set up the review process, a portfolio manager will assign requirements to a field partner from a user-defined list of document classes (e.g. Board of Directors, Strategic Plan, etc.).",
+      "To set up the review process, a portfolio manager will assign requirements to a field partner from a user-defined list of document classes.",
     imgPath: "/static/images/projects/kiva-2/kiva2-selection.png"
   }
 ];
 
-const featureImgSize = "4";
+const featureImgSize = "7";
 const techStack = ["react", "postgres", "flask", "redux", "box"];
 const quote = null;
 const quoteSource = null;
