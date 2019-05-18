@@ -54,7 +54,7 @@ export default () => (
                 {clients.map(client => (
                     <div key={client.name}>
                     <Link href={client.link}>
-                        <a>
+                        <a target="_blank">
                         <img
                             width={client.width}
                             height={client.height}
