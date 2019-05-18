@@ -5,18 +5,25 @@ import Link from "next/link";
 
 const clients = [
   {
+    name: "upenn",
+    width: 250,
+    height: 100,
+    logoPath: "/static/images/chapters/upenn/upenn-logo.jpg",
+    link: "https://hack4impact.org"
+  },
+  {
+    name: "gt",
+    width: 250,
+    height: 100,
+    logoPath: "/static/images/chapters/gt/gt-logo.png",
+    link: "https://bitsofgood.org"
+  },
+  {
     name: "bu",
     width: 150,
     height: 150,
     logoPath: "/static/images/chapters/bu/bu-logo.png",
     link: "https://www.hack4impactbu.com/index.html"
-  },
-  {
-    name: "calpoly",
-    width: 150,
-    height: 150,
-    logoPath: "/static/images/chapters/calpoly/calpoly-logo.png",
-    link: "https://hack4impact-calpoly.github.io/index.html"
   },
   {
     name: "cornell",
@@ -26,18 +33,18 @@ const clients = [
     link: "https://www.facebook.com/h4icornell/"
   },
   {
+    name: "calpoly",
+    width: 150,
+    height: 150,
+    logoPath: "/static/images/chapters/calpoly/calpoly-logo.png",
+    link: "https://hack4impact-calpoly.github.io/index.html"
+  },
+  {
     name: "uchicago",
     width: 150,
     height: 150,
     logoPath: "/static/images/chapters/uchicago/uchicago-logo.png",
     link: "https://www.facebook.com/h4iuchicago/"
-  },
-  {
-    name: "upenn",
-    width: 250,
-    height: 100,
-    logoPath: "/static/images/chapters/upenn/upenn-logo.jpg",
-    link: "https://hack4impact.org"
   },
 ];
 export default () => (
