@@ -9,7 +9,7 @@ import ActionLink from "../actionLink";
 const items = [
   <ProjectContainer
     title="Kiva"
-    subtitle="How might we create a single portal where users can easily track their progress and upload documents?"
+    subtitle="How might we expedite the reporting process with a single portal where users can see which documents need to be uploaded and track their progress?"
     image="url('/static/images/projects/kiva-2/kiva2-thumbnail copy.png')"
     link="/projects?name=kiva-2"
   />,
