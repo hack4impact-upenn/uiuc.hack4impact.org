@@ -50,7 +50,7 @@ const clients = [
 export default () => (
     <Section className="chapters-section">
         <Row>
-            <h1 className="section-title center" style={{ marginBottom: "100px" }}>
+            <h1 className="section-title center" style={{ marginBottom: "75px" }}>
                 Other Chapters
             </h1>
         </Row>
