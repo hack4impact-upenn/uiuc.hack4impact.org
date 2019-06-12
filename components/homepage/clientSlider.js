@@ -18,7 +18,7 @@ const clients = [
     link: "/projects?name=cp"
   },
   {
-    name: "Kiva",
+    name: "Kiva-1",
     width: 160,
     height: 55,
     logoPath: "/static/images/client_logos/kivalogo.png",
@@ -46,7 +46,7 @@ const clients = [
     link: "/projects?name=gg-2"
   },
   {
-    name: "Kiva",
+    name: "Kiva-2",
     width: 160,
     height: 55,
     logoPath: "/static/images/client_logos/kivalogo.png",
