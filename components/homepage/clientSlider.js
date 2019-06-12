@@ -18,6 +18,13 @@ const clients = [
     link: "/projects?name=cp"
   },
   {
+    name: "Kiva",
+    width: 160,
+    height: 55,
+    logoPath: "/static/images/client_logos/kivalogo.png",
+    link: "/projects?name=kiva-1"
+  },
+  {
     name: "philidelphia reads",
     width: 135,
     height: 120,
