@@ -6,51 +6,51 @@ import Link from "next/link";
 const clients = [
   {
     name: "upenn",
-    width: 250,
-    height: 100,
+    width: 125,
+    height: 40,
     logoPath: "/static/images/chapters/upenn/upenn-logo.jpg",
     link: "https://hack4impact.org"
   },
   {
     name: "gt",
-    width: 250,
-    height: 100,
+    width: 125,
+    height: 45,
     logoPath: "/static/images/chapters/gt/gt-logo.png",
     link: "https://bitsofgood.org"
   },
   {
     name: "bu",
-    width: 150,
-    height: 150,
+    width: 75,
+    height: 75,
     logoPath: "/static/images/chapters/bu/bu-logo.png",
     link: "https://www.hack4impactbu.com/index.html"
   },
   {
-    name: "cornell",
-    width: 150,
-    height: 150,
-    logoPath: "/static/images/chapters/cornell/cornell-logo.png",
-    link: "https://www.facebook.com/h4icornell/"
-  },
-  {
     name: "calpoly",
-    width: 150,
-    height: 150,
+    width: 75,
+    height: 75,
     logoPath: "/static/images/chapters/calpoly/calpoly-logo.png",
     link: "https://hack4impact-calpoly.github.io/index.html"
   },
   {
     name: "uchicago",
-    width: 150,
-    height: 150,
+    width: 75,
+    height: 75,
     logoPath: "/static/images/chapters/uchicago/uchicago-logo.png",
     link: "https://www.facebook.com/h4iuchicago/"
+  },
+  {
+    name: "cornell",
+    width: 75,
+    height: 75,
+    logoPath: "/static/images/chapters/cornell/cornell-logo.png",
+    link: "https://www.facebook.com/h4icornell/"
   },
 ];
 export default () => (
     <Section className="chapters-section">
         <Row>
-            <h1 className="section-title center" style={{ marginBottom: "50px" }}>
+            <h1 className="section-title center" style={{ marginBottom: "100px" }}>
                 Other Chapters
             </h1>
         </Row>
